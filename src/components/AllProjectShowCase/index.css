@@ -1,0 +1,51 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+.select {
+  margin-bottom: 10px;
+  width: 250px;
+}
+.productsList {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+.unorder-list {
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  flex-wrap: wrap;
+}
+
+.products-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.products-failure-img {
+  height: 400px;
+  width: 400px;
+}
+.product-failure-heading-text {
+  font-family: 'roboto';
+  color: black;
+}
+.products-failure-description {
+  color: black;
+  font-family: 'roboto';
+}
+.products-loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+.ItemContainer {
+  list-style-type: none;
+  width: 200px;
+}
+.ItemImage {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 150px;
+  width: 150px;
+}
+.name {
+  padding: 10px;
+  font-size: 10px;
+  font-family: 'roboto';
+}

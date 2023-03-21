@@ -1,0 +1,12 @@
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  padding: 10px;
+  background-color: #e2e8f0;
+  margin-bottom: 15px;
+}
+.logo {
+  height: 40px;
+}
